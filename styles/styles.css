@@ -1,0 +1,20 @@
+
+h1 {
+  font-size: 80px;
+}
+h2{
+  font-size: 60px;
+}
+h3{
+  font-size: 30px;
+}
+#section1{
+  background-image: url('../images/imagenhome.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+}
+.section{
+  color:white;
+}
