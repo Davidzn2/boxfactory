@@ -1,4 +1,14 @@
+#section1{
+  background-image: url('../images/imagenhome.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
 
+}
+
+.section{
+  color:white;
+}
 h1 {
   font-size: 80px;
 }
@@ -8,13 +18,39 @@ h2{
 h3{
   font-size: 30px;
 }
-#section1{
-  background-image: url('../images/imagenhome.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:white;
+nav{
+  height:50px;
+  background-color: black;
+  font-size: 10px;
+}
+.trabajo{
+  padding:0;
+  margin:0;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 
 }
-.section{
-  color:white;
+.gastro{
+  background-color: #e6b900;
+  float:left;
+}
+.personal{
+  background-color: #252525;
+  float:right;
+}
+.retail{
+  background-color: #e84a92;
+  float:left;
+}
+
+.branding{
+  background-color: #3cc8b5;
+  float:right;
+}
+.icons img{
+  height: 80px;
 }
