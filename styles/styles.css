@@ -21,15 +21,20 @@ h3{
   font-size: 30px;
 }
 #header{
-    height: 50px;
-		display: block;
+		position:fixed;
+		height: 50px;
+		display:block;
 		width: 100%;
-		background: #333;
+		background: black;
 		z-index:9;
 		text-align:center;
-		color: #f2f2f2;
+		color: white;
 		padding: 20px 0 0 0;
-		top:0px;
+	}
+
+
+#nosotros{
+  color:grey;
 }
 .trabajo{
   padding:0;
@@ -41,6 +46,9 @@ h3{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 
+}
+.trabajoimg img{
+  width:10px;
 }
 .gastro{
   background-color: #e6b900;
@@ -73,5 +81,9 @@ h3{
 }
 .proceso img{
   padding:0 20px;
-  width:400px;
+  width:300px;
+}
+.imageneschicas img{
+  padding-top: 80px;
+  width:100px;
 }
