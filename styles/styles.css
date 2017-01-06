@@ -5,8 +5,10 @@
   color:white;
 
 }
-
 .section{
+  color:white;
+}
+a{
   color:white;
 }
 h1 {
@@ -18,10 +20,16 @@ h2{
 h3{
   font-size: 30px;
 }
-nav{
-  height:50px;
-  background-color: black;
-  font-size: 10px;
+#header{
+    height: 50px;
+		display: block;
+		width: 100%;
+		background: #333;
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+		padding: 20px 0 0 0;
+		top:0px;
 }
 .trabajo{
   padding:0;
@@ -53,4 +61,17 @@ nav{
 }
 .icons img{
   height: 80px;
+}
+#form{
+  float:left;
+}
+#contacto{
+  float:right;
+}
+.socialicons i{
+  font-size: 22px;
+}
+.proceso img{
+  padding:0 20px;
+  width:400px;
 }

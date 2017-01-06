@@ -3,23 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>The Box Factory</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <!-- <header>
-      <nav>
-        <center>
-          <p>CONTÁCTANOS: 55 44 30 35 90 / 55 55 03 15 24 E-Mail: ventas@theboxfactory.mx</p>
-        </center>
-      </nav>
-    </header> -->
+
+    <!-- <div id="header">Header</div> -->
     <div id="fullpage">
     <div class="section" id="section1">
     <center>
       <h1>
-        Direccion. Diseño. Desarrollo.
+        Nuestro único limite es la imaginación
       </h1>
       <h3>
         Una nueva vision de proyectos extraordinarios
@@ -37,6 +33,13 @@
           <p>Un concepto con tres grandes ventajas:</p>
         </p>
         <h3>MOVILIDAD — IMPACTO VISUAL — ECOLOGICO</h3>
+        <div class="proceso">
+          <img src="images/process/process-1.png" alt="">
+          <img src="images/process/process-2.png" alt="">
+          <img src="images/process/process-3.png" alt="">
+
+        </div>
+
       </center>
     </div>
     <div class="section">
@@ -100,28 +103,40 @@
 
       </div>
       <div class="section">
-        <div class="center">
+        <div class="container  row">
+          <center>  <h3>Cuéntanos tu proyecto nosotros lo hacemos realidad</h3></center>
 
-          <h3>Cuéntanos tu proyecto nosotros lo hacemos realidad</h3>
-          <div class="col s6">
-            <form class="container" action="index.html" method="post">
-              <input type="text" name="" value="">
-              <input type="text" name="" value="">
-              <input type="text" name="" value="">
-              <input type="text" name="" value="">
+          <br>
+          <br><br><br>
+          <div class="col s6 c" id ="form">
+            <form class="" action="index.html" method="post">
+              <input type="text" name="nombre" placeholder="Nombre">
+              <input type="text" name="correo" placeholder="Email">
+              <input type="text" name="telefono" placeholder="Teléfono">
+              <input type="text" name="compañia" placeholder="Compañia">
+              <textarea name="Mensaje" rows="8" cols="80"></textarea>
 
             </form>
           </div>
 
-          <div class="col s6">
-            <p>
-              THE BOX FACTORY <br>
-              Bosque de Naranjos 25 Bosque de las Lomas 11700 Ciudad de México <br>
-              Línea de atención al cliente: 55 44 30 35 90 - 55 55 03 15 24 - 55 19 65 09 31 ventas@theboxfactory.mx www.theboxfactory.mx
-            </p>
+          <div class="col s6" id="contacto">
+            <div class="socialicons">
+              <a href="https://www.facebook.com/theboxfactorymx/" target="_blank"><i class="fa fa-facebook" style="padding:0 12px;"aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/theboxfactorymx/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+            </div>
+
+
+            <h4>THE BOX FACTORY </h4>
+
+              <h5>Bosque de Naranjos 25 </h5>
+              <h5>Bosque de las Lomas 11700 Ciudad de México</h5>
+              <h5>Línea de atención al cliente: 55 44 30 35 90 - 55 55 03 15 24 - 55 19 65 09 31 </h5>
+              <h5><a href="mailto:ventas@theboxfactory.mx">ventas@theboxfactory.mx</a> <a href="#">www.theboxfactory.mx</a></h5>
+          </div>
+          <div class="center col s12">
+            <h4>¡Nuestro único limite es la imaginación!</h4>
           </div>
         </div>
-
 
       </div>
     </div>
