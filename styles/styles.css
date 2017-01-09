@@ -33,7 +33,7 @@ h3{
 	}
 
 
-#nosotros{
+#nosotros-{
   color:grey;
 }
 .trabajo{
@@ -54,19 +54,39 @@ h3{
   background-color: #e6b900;
   float:left;
 }
+.gastro:hover{
+  background-image:url(http://www.mundoperro.net/wp-content/uploads/consejos-perro-feliz-verano-400x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .personal{
   background-color: #252525;
   float:right;
+}
+.personal:hover{
+  background-image:url(http://www.mundoperro.net/wp-content/uploads/consejos-perro-feliz-verano-400x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .retail{
   background-color: #e84a92;
   float:left;
 }
-
+.retail:hover{
+  background-image:url(http://www.mundoperro.net/wp-content/uploads/consejos-perro-feliz-verano-400x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .branding{
   background-color: #3cc8b5;
   float:right;
 }
+.branding:hover{
+  background-image:url(http://www.mundoperro.net/wp-content/uploads/consejos-perro-feliz-verano-400x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .icons img{
   height: 80px;
 }
@@ -84,6 +104,15 @@ h3{
   width:300px;
 }
 .imageneschicas img{
-  padding-top: 80px;
-  width:100px;
+  padding-top: 50px;
+  width:35px;
+  font-size: 16px;
+}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+  background-color: white;
+  color:black
+}
+textarea{
+  background-color: white;
+  color:black
 }
