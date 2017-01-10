@@ -31,10 +31,12 @@ h3{
 		color: white;
 		padding: 20px 0 0 0;
 	}
-.galeria{
-  
+.galeria h2{
+  padding-top: 0;
 }
-
+.logo-gal{
+  padding-top: 30px;
+}
 .dropdown-button{
   float:right;
   padding-right: 20px;
