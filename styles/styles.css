@@ -1,8 +1,16 @@
+@font-face {
+  font-family: ACaslonPro;
+  src: url("../fonts/fonttheboxtitulares/ACaslonPro-Regular.otf") format("opentype");
+}
+*{
+  font-family: ACaslonPro;
+}
 #section1{
   background-image: url('../images/imagenhome.gif');
   background-repeat: no-repeat;
   background-size: cover;
   color:white;
+  font-family: ACaslonPro;
 
 }
 .section{
@@ -21,25 +29,27 @@ h3{
   font-size: 30px;
 }
 #header{
-		position:fixed;
-		height: 50px;
-		display:block;
-		width: 100%;
-		background: black;
-		z-index:9;
-		text-align:center;
-		color: white;
-		padding: 20px 0 0 0;
-	}
+  position:fixed;
+  height: 60px;
+  display:block;
+  width: 100%;
+  background: black;
+  z-index:9;
+  text-align:center;
+  color: white;
+  padding: 0 0 0 0;
+}
 
 .galeria img{
   max-height: 350px;
 }
-
-.logo-gal{
-  padding-top: 30px;
+.logo{
+  float:left;
+  width:80px;
 }
+
 .dropdown-button{
+  padding-top: 20px;
   float:right;
   padding-right: 20px;
 }
@@ -60,9 +70,11 @@ h3{
 .trabajoimg img{
   width:10px;
 }
+
 .gastro{
   background-color: #e6b900;
   float:left;
+
 }
 
 .personal{
@@ -97,9 +109,43 @@ h3{
   padding:0 20px;
   width:300px;
 }
+.foto-gastro:hover{
+  content: url('../images/process/gastro2ok.jpg');
+  max-height: 250px;
+}
+.foto-personal:hover{
+  content: url('../images/process/personal2ok.jpg');
+  max-height: 250px;
+  max-width: 250px;
+}
+.foto-retail:hover{
+  content: url('../images/process/retail2.jpg');
+  max-height: 250px;
+}
+.foto-branding:hover{
+  content: url('../images/process/branding2.jpg');
+  max-height: 250px;
+}
+.foto-gastro{
+  max-height: 250px;
+  width: 250px;
+}
+.foto-personal{
+
+  max-height: 250px;
+width: 250px;
+}
+.foto-retail{
+    max-height: 250px;
+  width: 250px;
+}
+.foto-branding{
+  max-height: 250px;
+  width: 250px;
+}
 .imageneschicas img{
   padding-top: 50px;
-  width:35px;
+  max-height:300px;
   font-size: 16px;
 }
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
@@ -109,4 +155,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 textarea{
   background-color: white;
   color:black
+}
+.hidden{
+  display:none;
 }

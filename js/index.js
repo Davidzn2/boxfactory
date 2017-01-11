@@ -8,9 +8,6 @@ $(document).ready(function() {
 
     });
     $('.materialboxed').materialbox();
-
-
-    $('.carousel').carousel();
     $('.dropdown-button').dropdown({
         inDuration: 300,
         outDuration: 225,
