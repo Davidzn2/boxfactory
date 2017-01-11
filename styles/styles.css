@@ -31,9 +31,11 @@ h3{
 		color: white;
 		padding: 20px 0 0 0;
 	}
-.galeria h2{
-  padding-top: 0;
+
+.galeria img{
+  max-height: 350px;
 }
+
 .logo-gal{
   padding-top: 30px;
 }
