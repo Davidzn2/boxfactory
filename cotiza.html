@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <div id="header">
+      <a href="/"><img class="logo" src="images/logobco.png" ></a>
+      <a class='dropdown-button' href='#' data-activates='dropdown1'><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li data-menuanchor="/"><a href="/">Inicio</a></li>
+          <li data-menuanchor="Nosotros"><a href="/#Nosotros">Nosotros</a></li>
+          <li data-menuanchor="Areas-de-trabajo"><a href="/#Areas-de-trabajo">Areas de trabajo</a></li>
+          <li data-menuanchor="Como-Trabajamos"><a href="/#Como-Trabajamos">Como Trabajamos</a></li>
+          <li data-menuanchor="Contactanos"><a href="/#Contactanos">Contactanos</a></li>
+        </ul>
+    </div>
+    <br><br><br><br>
+    <div class="container">
+      <h2>Cotización</h2>
+      <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Nombre completo" id="Nombre Completo" type="text" class="validate">
+                <label for="first_name"></label>
+              </div>
+              <div class="input-field col s6">
+                <input placeholder="Empresa" id="Empresa" type="text" class="validate">
+                <label for="Empresa"></label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="email" placeholder="Correo Electronico" type="email" class="validate">
+                <label for="email"></label>
+              </div>
+
+              <div class="input-field col s6">
+                <input placeholder="Telefono" id="tel" type="tel" class="validate">
+                <label for="tel"></label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                  <select multiple>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Gastro</option>
+                    <option value="2">Personal</option>
+                    <option value="3">Retail</option>
+                    <option value="4">Branding</option>
+                  </select>
+                  <label>Area de Trabajo</label>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col s4">
+                <input placeholder="Ventanas" id="Ventanas" type="text" class="validate">
+                <label for="Ventanas">¿Cuantas Ventanas? </label>
+              </div>
+              <div class="col s4">
+                <input placeholder="Pisos" id="Pisos" type="text" class="validate">
+                <label for="Pisos">¿Pisos? </label>
+
+              </div>
+              <div class="col s4">
+                <input placeholder="Color" id="Color" type="text" class="validate">
+                <label for="Color">¿Que color? </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="Mensaje" class="materialize-textarea" length="120"></textarea>
+                <label for="Mensaje">Mensaje</label>
+              </div>
+            </div>
+            <input type="submit" name="Cotizar" value="Cotizar">
+            </div>
+          </form>
+        </div>
+    </div>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+     $('select').material_select();
+     $('input#input_text, textarea#textarea1').characterCounter();
+     $('.dropdown-button').dropdown();
+
+  });
+  </script>
+</html>
