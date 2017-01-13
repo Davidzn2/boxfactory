@@ -53,12 +53,13 @@ h3{
   float:right;
   padding-right: 20px;
 }
+
 #nosotros-{
   color:grey;
 }
 .trabajo{
-  padding:0;
-  margin:0;
+  padding:10px 0;
+  margin:0 ;
   width: 50%;
   height: 50%;
   position: relative;
@@ -67,9 +68,7 @@ h3{
   box-sizing: border-box;
 
 }
-.trabajoimg img{
-  width:10px;
-}
+
 
 .gastro{
   background-color: #e6b900;
@@ -110,44 +109,29 @@ h3{
   width:300px;
 }
 .foto-gastro:hover{
-  content: url('../images/process/gastro2ok.jpg');
-  max-height: 250px;
+  content: url('../images/galeria/gastro/gstr2.jpg');
+
 }
 .foto-personal:hover{
-  content: url('../images/process/personal2ok.jpg');
-  max-height: 250px;
-  max-width: 250px;
+  content: url('../images/galeria/personal/prs1.jpg');
+
 }
 .foto-retail:hover{
-  content: url('../images/process/retail2.jpg');
-  max-height: 250px;
+  content: url('../images/galeria/retail/retail1.jpg');
+
 }
 .foto-branding:hover{
-  content: url('../images/process/branding2.jpg');
-  max-height: 250px;
-}
-.foto-gastro{
-  max-height: 250px;
-  width: 250px;
-}
-.foto-personal{
+  content: url('../images/galeria/branding/br3.jpg');
 
-  max-height: 250px;
-width: 250px;
 }
-.foto-retail{
-    max-height: 250px;
-  width: 250px;
+
+.foto img{
+
+  width: 100%;
+  height: 300px;
+
 }
-.foto-branding{
-  max-height: 250px;
-  width: 250px;
-}
-.imageneschicas img{
-  padding-top: 50px;
-  max-height:300px;
-  font-size: 16px;
-}
+
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
   background-color: white;
   color:black
