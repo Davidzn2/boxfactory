@@ -2,9 +2,7 @@
   font-family: ACaslonPro;
   src: url("../fonts/fonttheboxtitulares/ACaslonPro-Regular.otf") format("opentype");
 }
-*{
-  font-family: ACaslonPro;
-}
+
 #section1{
   background-image: url('../images/imagenhome.gif');
   background-repeat: no-repeat;
@@ -33,7 +31,7 @@ h3{
   height: 60px;
   display:block;
   width: 100%;
-  background: black;
+  background: rgba(0,0,0,0);;
   z-index:9;
   text-align:center;
   color: white;
@@ -52,14 +50,17 @@ h3{
   padding-top: 20px;
   float:right;
   padding-right: 20px;
+  color:#cccccc;
 }
 
 #nosotros-{
+  font-size: 22px;
   color:grey;
 }
 .trabajo{
-  padding:10px 0;
-  margin:0 ;
+  mar
+  padding:-100px 0;
+  margin:0 0 0 0;
   width: 50%;
   height: 50%;
   position: relative;
@@ -69,7 +70,9 @@ h3{
 
 }
 
-
+#area{
+  margin: -20px 0 -20px 0;
+}
 
 .gastro{
   background-color: #ffa745;
@@ -83,12 +86,12 @@ h3{
 }
 
 .retail{
-  background-color: #ffa745;
+  background-color: #014c7c;
   float:left;
 }
 
 .branding{
-  background-color: #373737;
+  background-color: #919191;
   float:right;
 }
 
