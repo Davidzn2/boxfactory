@@ -58,7 +58,7 @@ h3{
   color:grey;
 }
 .trabajo{
-  mar
+
   padding:-100px 0;
   margin:0 0 0 0;
   width: 50%;
@@ -78,6 +78,9 @@ h3{
   background-color: #ffa745;
   float:left;
 
+}
+.gastro:hover{
+  background-color: #014c7c;
 }
 
 .personal{
@@ -116,6 +119,7 @@ h3{
   content: url('../images/galeria/gastro/gstr2.jpg');
 
 
+
 }
 .foto-personal:hover{
   content: url('../images/galeria/personal/prs1.jpg');
@@ -142,11 +146,11 @@ h3{
   height:600px;
   margin: -11px 0 0 -11px;
 }
-
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
   background-color: white;
   color:black
 }
+
 textarea{
   background-color: white;
   color:black
