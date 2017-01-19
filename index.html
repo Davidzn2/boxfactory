@@ -34,7 +34,7 @@
       <h3>
         Una nueva visión de proyectos extraordinarios
       </h3>
-      <a href="cotiza.html " class="waves-effect waves-light btn">Cotiza con nosotros</a>
+      <a href="#Contactanos " class="waves-effect waves-light btn">Conócenos</a>
     </center>
     </div>
 
@@ -64,9 +64,9 @@
 
         <!-- <h3>Gastro</h3> -->
         <div>
-          <a class="foto foto-gastro" href="images/galeria/gastro/gstr2.jpg" data-lightbox="gastro" ><img src="images/process/gastro.jpg" alt=""/></a>
+          <a style="max-height:300px; width:100%;" class="foto foto-gastro" href="images/galeria/gastro/gstr2.jpg" data-lightbox="gastro" ><img src="images/process/gastro.jpg" alt=""/></a>
           <a class=" hidden" href="images/galeria/gastro/gstr3.jpg" data-lightbox="gastro" ><img src="images/galeria/gastro/gstr3.jpg" alt=""/></a>
-          <a class=" hidden" href="images/galeria/gastro/gstr4.jpg" data-lightbox="gastro" ><img src="images/galeria/gastro/gstr4.jpg" alt=""/></a>
+          <a class=" hidden" href="images/galeria/gastro/gstr4.png" data-lightbox="gastro" ><img src="images/galeria/gastro/gstr4.jpg" alt=""/></a>
           <a class=" hidden" href="images/galeria/gastro/gstr5.jpg" data-lightbox="gastro" ><img src="images/galeria/gastro/gstr5.jpg" alt=""/></a>
           <a class=" hidden" href="images/galeria/gastro/gstr6.jpg" data-lightbox="gastro" ><img src="images/galeria/gastro/gstr6.jpg" alt=""/></a>
           <a class=" hidden" href="images/galeria/gastro/gstr7.jpg" data-lightbox="gastro" ><img src="images/galeria/gastro/gstr7.jpg" alt=""/></a>
@@ -78,7 +78,7 @@
         <!-- <a href="gallery.html#personal"><img class="trabajoimg" src="images/formatr/personal.png" alt=""></a> -->
         <!-- <h3>Personal</h3> -->
         <div>
-          <a class="foto  foto-personal" href="images/galeria/personal/prs1.jpg" data-lightbox="personal" ><img src="images/process/perso.jpg" alt=""/></a>
+          <a style="max-height:320px; width:100%;" class="foto  foto-personal" href="images/galeria/personal/prs1.jpg" data-lightbox="personal" ><img src="images/process/perso.jpg" alt=""/></a>
           <a class=" hidden" href="images/galeria/personal/prs2.jpg" data-lightbox="personal" ><img src="images/galeria/personal/prs2.jpg" alt="" /></a>
           <a class=" hidden" href="images/galeria/personal/prs3.jpg" data-lightbox="personal" ><img src="images/galeria/personal/prs3.jpg" alt="" /></a>
           <a class=" hidden" href="images/galeria/personal/prs4.jpg" data-lightbox="personal" ><img src="images/galeria/personal/prs4.jpg" alt="" /></a>
@@ -106,13 +106,13 @@
         <!-- <a href="gallery.html#branding"><img class="trabajoimg" src="images/formatr/branding.png" alt=""></a> -->
         <!-- <h3>Branding</h3> -->
         <div>
-          <a class=" foto foto-branding" href="images/galeria/branding/br3.jpg" data-lightbox="branding" ><img src="images/process/brand.jpg" alt="" /></a>
+          <a style="max-height:300px; width:150%"  class=" foto foto-branding" href="images/galeria/branding/br1.jpg" data-lightbox="branding" ><img src="images/process/brand.jpg" alt="" /></a>
           <a class=" hidden" href="images/galeria/branding/branding.jpg" data-lightbox="branding" ><img src="images/galeria/branding/branding.jpg" alt=""/></a>
-          <a class="hidden" href="images/galeria/branding/br1.jpg" data-lightbox="branding" ><img src="images/galeria/branding/br1.jpg" alt="" /></a>
+          <a class="hidden" href="images/galeria/branding/br3.jpg" data-lightbox="branding" ><img src="images/galeria/branding/br1.jpg" alt="" /></a>
           <a class=" hidden" href="images/galeria/branding/br2.jpg" data-lightbox="branding" ><img src="images/galeria/branding/br2.jpg" alt="" /></a>
 
           <a class=" hidden" href="images/galeria/branding/br4.jpg" data-lightbox="branding" ><img src="images/galeria/branding/br4.jpg" alt="" /></a>
-          <a class=" hidden" href="images/galeria/branding/br5.jpg" data-lightbox="branding" ><img src="images/galeria/branding/br5.jpg" alt="" /></a>
+          <a class=" hidden" href="images/galeria/branding/br5.png" data-lightbox="branding" ><img src="images/galeria/branding/br5.png" alt="" /></a>
           <a class=" hidden" href="images/galeria/branding/br6.jpg" data-lightbox="branding" ><img src="images/galeria/branding/br6.jpg" alt="" /></a>
 
         </div>
@@ -166,10 +166,8 @@
 
       </div>
       <div class="section container row">
-        <div class="col s4">
-          <img class="imagencontact"  src="images/gal.jpg" alt="">
-        </div>
-        <div class="row col s8">
+
+        <div class="row col s12">
           <center>  <h3>Cuéntanos tu proyecto nosotros lo hacemos realidad</h3></center>
           <div class="col s6 c" id ="form">
             <form action="https://formspree.io/jayaddissi@hotmail.com"method="POST">
@@ -178,8 +176,52 @@
               <input type="text" name="telefono" placeholder="Teléfono">
               <input type="text" name="compañia" placeholder="Compañia">
               <textarea name="Mensaje" placeholder="Mensaje" ></textarea>
-              <button type="submit" class="waves-effect waves-light btn"name="Enviar">Enviar</button>
+              <div class="input-field col s4">
+                  <select multiple>
+                    <option value="" disabled selected>Elija</option>
+                    <option value="1">Gastro</option>
+                    <option value="2">Personal</option>
+                    <option value="3">Retail</option>
+                    <option value="4">Branding</option>
+                  </select>
+                  <label>Gastro</label>
+                </div>
+                <div class="input-field col s4">
+                    <select multiple>
+                      <option value="" disabled selected>Elija</option>
+                      <option value="1">Gastro</option>
+                      <option value="2">Personal</option>
+                      <option value="3">Retail</option>
+                      <option value="4">Branding</option>
+                    </select>
+                    <label>Personal</label>
+                  </div>
+                  <div class="input-field col s4">
+                      <select multiple>
+                        <option value="" disabled selected>Elija</option>
+                        <option value="1">Gastro</option>
+                        <option value="2">Personal</option>
+                        <option value="3">Retail</option>
+                        <option value="4">Branding</option>
+                      </select>
+                      <label>Retail</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <select multiple>
+                          <option value="" disabled selected>Elija</option>
+                          <option value="1">Gastro</option>
+                          <option value="2">Personal</option>
+                          <option value="3">Retail</option>
+                          <option value="4">Branding</option>
+                        </select>
+                        <label>Branding</label>
+                    </div>
+                    <div class="col m12">
+                        <button type="submit" class="waves-effect waves-light btn"name="Enviar">Enviar</button>
+                    </div>
+
             </form>
+
           </div>
 
           <div class="col s6" id="contacto">
@@ -191,8 +233,8 @@
             <h4>THE BOX FACTORY </h4>
               <h5>Bosque de Naranjos 25 </h5>
               <h5>Bosque de las Lomas 11700 Ciudad de México</h5>
-              <h5>Línea de atención al cliente: 55 44 30 35 90 - 55 55 03 15 24 - 55 19 65 09 31 </h5>
-              <h5><a href="mailto:ventas@theboxfactory.mx">ventas@theboxfactory.mx</a> <a href="#">www.theboxfactory.mx</a></h5>
+              <h5>Línea de atención al cliente:  55 55 03 15 24 - 55 19 65 09 31 </h5>
+              <h5><a href="mailto:ventas@theboxfactory.mx">ventas@theboxfactory.mx</a>
           </div>
           <div class="center col s12">
             <h4>¡Nuestro único límite es la imaginación!</h4>

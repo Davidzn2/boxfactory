@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         anchors: ['', 'Nosotros', 'Areas-de-trabajo','Como-Trabajamos','Contactanos'],
-      	sectionsColor : ['white','white','#3cc8b5','#919191','#383838'],
+      	sectionsColor : ['white','white','white','#919191','#383838'],
         navigation: true,
         css3: true,
         menu:'#menu'
@@ -17,7 +17,9 @@ $(document).ready(function() {
         belowOrigin: false, // Displays dropdown below the button
         alignment: 'left' // Displays dropdown with edge aligned to the left of button
       });
-
+      $('select').material_select();
+      $('input#input_text, textarea#textarea1').characterCounter();
+      $('.dropdown-button').dropdown();
 
 
 });

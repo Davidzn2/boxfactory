@@ -115,6 +115,7 @@ h3{
 .foto-gastro:hover{
   content: url('../images/galeria/gastro/gstr2.jpg');
 
+
 }
 .foto-personal:hover{
   content: url('../images/galeria/personal/prs1.jpg');
@@ -125,7 +126,8 @@ h3{
 
 }
 .foto-branding:hover{
-  content: url('../images/galeria/branding/br3.jpg');
+  content: url('../images/galeria/branding/br2.jpg');
+
 
 }
 
