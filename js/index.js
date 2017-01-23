@@ -1,3 +1,6 @@
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+});
 $(document).ready(function() {
     $('#fullpage').fullpage({
         anchors: ['', 'Nosotros', 'Areas-de-trabajo','Como-Trabajamos','Contactanos'],
