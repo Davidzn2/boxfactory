@@ -2,15 +2,7 @@
   font-family: ACaslonPro;
   src: url("../fonts/fonttheboxtitulares/ACaslonPro-Regular.otf") format("opentype");
 }
-/*.loader {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url('../images/loader.gif') 50% 50% no-repeat rgb(249,249,249);
-}*/
+
 
 #section1{
   background-image: url('../images/imagenhome.gif');
@@ -19,6 +11,9 @@
   color:white;
   font-family: ACaslonPro;
 
+}
+#section1 h3{
+  font-family: futura;
 }
 .section{
   color:white;
@@ -44,19 +39,32 @@ h3{
   z-index:9;
   text-align:center;
   color: white;
-  padding: 0 0 0 0;
+  padding: 10px 0 0 10px;
 }
 
 .galeria img{
   max-height: 350px;
 }
+.newbtb {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border-radius: 25%;
+  cursor:pointer;
+  overflow: hidden;
+
+}
+
 .logo{
   float:left;
   width:80px;
 }
+.trabajoimg{
+  padding-top: 10px;
+  height:80px;
 
+}
 .dropdown-button{
-  padding-top: 20px;
+  padding-top: 10px;
   float:right;
   padding-right: 20px;
   color:#cccccc;
@@ -65,6 +73,16 @@ h3{
 #nosotros-{
   font-size: 22px;
   color:grey;
+}
+
+#nosotros- h2{
+  font-family: ACaslonPro;
+}
+#trabajamos h2{
+  font-family: ACaslonPro;
+}
+.lb-number{
+  display: none;
 }
 .trabajo{
 
@@ -88,9 +106,6 @@ h3{
   float:left;
 
 }
-.gastro:hover{
-  background-color: #014c7c;
-}
 
 .personal{
   background-color: #373737;
@@ -100,11 +115,13 @@ h3{
 .retail{
   background-color: #014c7c;
   float:left;
+
 }
 
 .branding{
   background-color: #919191;
   float:right;
+  margin-bottom: 20px;
 }
 
 
@@ -124,25 +141,6 @@ h3{
   padding:0 20px;
   width:300px;
 }
-.foto-gastro:hover{
-  content: url('../images/galeria/gastro/gstr2.jpg');
-
-
-
-}
-.foto-personal:hover{
-  content: url('../images/galeria/personal/prs1.jpg');
-
-}
-.foto-retail:hover{
-  content: url('../images/galeria/retail/retail1.jpg');
-
-}
-.foto-branding:hover{
-  content: url('../images/galeria/branding/br2.jpg');
-
-
-}
 
 .foto img{
 
@@ -156,7 +154,7 @@ h3{
   margin: -11px 0 0 -11px;
 }
 .butcol{
-  background-color: grey;
+  background-color: #014c7c;
 }
 .butcol:hover{
   background-color: dimgray;
