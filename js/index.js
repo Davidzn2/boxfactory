@@ -1,16 +1,15 @@
-// $(window).load(function() {
-// 	$(".loader").fadeOut("slow");
-// });
 $(document).ready(function() {
     $('#fullpage').fullpage({
         anchors: ['', 'Nosotros', 'Areas-de-trabajo','Como-Trabajamos','Contactanos'],
       	sectionsColor : ['white','white','white','#919191','#383838'],
         navigation: true,
         css3: true,
-        menu:'#menu'
+        menu:'#menu',
+        resize:true,  
+        responsive:true
 
     });
-    $('.materialboxed').materialbox();
+
     $('.dropdown-button').dropdown({
         inDuration: 300,
         outDuration: 225,

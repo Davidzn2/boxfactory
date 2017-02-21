@@ -1,3 +1,11 @@
+@media only screen and (max-device-width: 480px) {
+  p {
+   font-size: 36px !important;
+  }
+  li{
+    font-size: 36px !important;
+  }
+}
 @font-face {
   font-family: ACaslonPro;
   src: url("../fonts/fonttheboxtitulares/ACaslonPro-Regular.otf") format("opentype");
@@ -7,7 +15,7 @@
 #section1{
   background-image: url('../images/imagenhome.gif');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   color:white;
   font-family: ACaslonPro;
 
@@ -30,6 +38,11 @@ h2{
 h3{
   font-size: 30px;
 }
+
+
+/*p{
+  font-size: 30px;
+}*/
 #header{
   position:fixed;
   height: 60px;
@@ -96,6 +109,7 @@ h3{
   box-sizing: border-box;
 
 }
+
 
 #area{
   margin: -20px 0 -20px 0;
